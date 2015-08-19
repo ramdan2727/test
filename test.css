@@ -1,0 +1,145 @@
+/* Materialize Override */
+#myHeader {
+  position: fixed;
+  z-index: 999;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.separator a {
+  margin: 0 !important;
+}
+.section,.widget {
+  margin: 0;
+  padding: 0;
+}
+.widget {
+  line-height: 1.5;
+}
+.blog-meta {
+  color: #9a9a9a;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  margin-top: -.45rem;
+}
+.section-aho {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+.section-aho.no-pad {
+  padding: 0;
+}
+.section-aho.no-pad-bot {
+  padding-bottom: 0;
+}
+.section-aho.no-pad-top {
+  padding-top: 0;
+}
+nav .button-collapse i {
+  font-size: 24px;
+  margin-right: 1rem;
+}
+nav ul a {
+  color: #444;
+}
+#logo-container {
+  font-size: 1.8em;
+}
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container {
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section-aho {
+  width: 100%;
+}
+.card-image .card-title {
+  line-height: 1.25;
+}
+.card.medium .card-content,.card.small .card-content {
+  height: auto;
+}
+.w2 {
+  font-weight: 200;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+.widget nav ul,.widget nav ul li {
+  padding: 0;
+}
+#myConsole {
+  position: fixed;
+  right: 99.9%;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 9999;
+  color: white;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+#myConsole:hover {
+  right: auto;
+  left: 0;
+}
+#myBlogPosts h1{
+  font-size:3rem;
+  font-weight:300;
+  color:#009688;
+}
+#myBlogPosts h2{
+  font-size:2.3rem;
+  font-weight:300;
+  color:#009688;
+}
+#myBlogPosts h3{
+  font-size:1.7rem;
+  font-weight:300;
+  color:#009688;
+}
+#myBlogPosts h4{
+  font-size:1.3rem;
+  font-weight:300;
+  color:#009688;
+}
+#myBlogPosts h5{
+  font-size:1.2rem;
+}
+#myBlogPosts h6{
+  font-size:1rem;
+}
+@media only screen and (max-width :992px) {
+  #mySpacer {
+    height: 56px;
+  }
+  .parallax-container .section-aho {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section-aho {
+    top: 10%;
+  };
+}
+@media only screen and (max-width :600px) {
+  #index-banner .section-aho {
+    top: 0;
+  };
+}
+@media only screen and (min-width:601px) {
+  .widget nav ul {
+    line-height: 64px;
+  };
+}
